@@ -1,14 +1,9 @@
-# Create a collection of these authors and
-# the year they kicked the bucket;
-# print the collection in the following format:
+# collection.py
+# by Medina Kubanychbekova
+# Date: 02/12/2025
+# Description: This program stores and prints a collection of famous authors and their death years.
 
-# Charles Dickens died in 1870.
-
-# Charles Dickens, 1870
-# William Thackeray, 1863
-# Anthony Trollope, 1882
-# Gerard Manley Hopkins, 1889
-
+# Dictionary of authors and the year they passed away
 authors = {
     "Charles Dickens": "1870",
     "William Thackeray": "1863",
@@ -16,6 +11,7 @@ authors = {
     "Gerard Manley Hopkins": "1889"
 }
 
+# Loop through dictionary and print each author's information
 for author, date in authors.items():
     print(f"{author} died in {date}.")
 
